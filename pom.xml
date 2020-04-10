@@ -135,7 +135,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.xxg.Main</mainClass>
+                            <mainClass>org.home.boot.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
