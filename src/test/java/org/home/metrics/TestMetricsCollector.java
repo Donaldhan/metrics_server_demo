@@ -16,7 +16,8 @@ public class TestMetricsCollector {
     @Test
     public void systemMetrics(){
         try {
-            String url ="http://localhost:8888/metrics/system";
+//            String url ="http://localhost:8888/metrics/system";
+            String url ="http://10.177.96.191:8888/metrics/system";
             ServiceResponse response = HttpClientUtil.doGet(url);
             log.info("system metrics:{}",response.getData());
         } catch (Exception e) {
